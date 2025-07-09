@@ -1,0 +1,112 @@
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.h1{
+      font-family: 'Poppins', sans-serif;
+;
+    font-size: 75px;
+    font-display: swap;
+    font-style: normal;
+}
+ 
+ body{
+            text-align: center;
+        }
+
+        .game-section{
+           background-color: #5ebd77;
+           text-align: center;
+           padding: 30px 0 0 0;
+           margin: 0;
+           width: 213vh;
+           height: 55vh;
+        }
+        .gif-section{
+            background-color: #5ebd77;
+            text-align: center;
+            padding: 0, 0, 0, 0;
+            margin: 0;
+            width: 213vh;
+            height: 45vh;
+
+        }
+        .gif-section img{
+            width: 213vh;
+            padding: 0%;
+            margin: 0;
+
+            height: 44vh;
+            max-width: 270vh;
+            border-radius: 10px;
+            background-color: transparent;
+            z-index: 1;
+            overlay: #000;
+        }
+        .choice-button{
+            height: 100px;
+            width: 100px;
+            border: solid 2px #000000;
+            cursor: pointer;
+            border-radius: 50px;
+            background-color: #70e08c;
+            margin: 0 20px 0 20px;
+
+        }
+        .choice-button:hover{
+            border-color: aliceblue;
+            border: solid 2px #ffffff;
+            transition: 0.5s;
+            box-shadow: #ffffff 0px 0px 10px;
+        
+
+        }
+
+        .reset-button{
+            height: 50px;
+            width: 150px;
+            cursor: pointer;
+            font-size: 18px;
+            background-color: #e74c3c;
+            color: white;
+            border-radius: 40px;
+            padding: 10px 20px;
+            margin: 10px 0 20px 0;
+            border: none;
+        }
+        .reset-button:hover{
+            border-color: aliceblue;
+            border: solid 2px #ffffff;
+            transition: 0.5s;
+            box-shadow: #ffffff 0px 0px 10px;
+            background-color: red;
+             transform: scale(1.1);
+            transition: all 0.3s ease-in-out;
+    
+            font-weight: 500;
+            }
+
+          .choice-imag{
+            height: 75px;
+            background-color: #70e08c;
+            padding: 4 2 4 2;
+            border-radius: 50px;
+             }
+              .choice-button:hover {
+               transform: scale(1.1);
+               transition: all 0.3s ease-in-out;
+             }
+             .result-text{
+                 font-weight: 600;
+                  margin-top: 15px;
+                   background-color: #ffffffaa;
+                    padding: 10px 15px;
+                  border-radius: 10px;
+                  display: inline-block;
+                  margin: 30px 10px 20px 0;
+                 }
+
+
+
+         
